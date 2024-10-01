@@ -10,4 +10,6 @@ const server = app.listen(port, () => {
   console.log(`Server is running at http://localhost:${port}`);
 });
 
+// Added this line of code
+
 module.exports = {app, server};
